@@ -4,12 +4,6 @@ class clienteService {
  return res.rows;
     }
 async creats (dados) {
-const res = await Pool.query ("INSERT INTOO.. RETURNING *", ["FIAT"] 
-
-
-
-}
-
-
-
-}
+const res = await Pool.query ("INSERT INTOO.. RETURNING *", ["FIAT"] ["porche"])
+return res.rows(0);
+}}

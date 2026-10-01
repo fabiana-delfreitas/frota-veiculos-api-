@@ -4,5 +4,8 @@
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
     "pg": "^8.23.1"
+  },  
+  "scripts": {
+    "dev": "node --watch src/veiculo.routes.js veiculo.service.js"
   }
 }
